@@ -1,32 +1,18 @@
 {
   "flex": {
     "prefix": "df",
-    "body": "display: flex;",
-    "description": "Desc"
+    "body": "display: flex;"
   },
   "grid": {
     "prefix": "dg",
-    "body": "display: grid;${0}",
-    "description": "Desc"
+    "body": "display: grid;"
   },
   "margin top": {
     "prefix": "mmt",
-    "body": "margin: $1 0 0 0;${0}",
-    "description": "Desc"
+    "body": "margin: $1 0 0 0;$0"
   },
   "margin bottom": {
     "prefix": "mmb",
-    "body": "margin: 0 0 $1 0;${0}",
-    "description": "Desc"
-  }
-  "margin right/left": {
-    "prefix": "mmrl",
-    "body": "margin: 0 $1 0 $2;${0}",
-    "description": "Desc"
-  },
-  "margin top/bottom": {
-    "prefix": "mmtb",
-    "body": "margin: $1 0 $2 0;${0}",
-    "description": "Desc"
+    "body": "margin: 0 0 $1 0;$0"
   }
 }
