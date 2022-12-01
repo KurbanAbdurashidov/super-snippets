@@ -7,6 +7,6 @@
 {
   "arrow function": {
     "prefix": "afn",
-    "body": "const $1 = (${2:arguments}) => {\n\t${0}\n}"
+    "body": "const ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
   }
 },
