@@ -8,16 +8,14 @@
       {
         "language": [
           "javascript",
-          "javascriptreact",
-          "html"
+          "javascriptreact"
         ],
-        "path": "./snippets/javascript/javascript.json"
+        "path": "./snippets/scss/scss.json"
       },
       {
         "language": [
           "typescript",
-          "typescriptreact",
-          "html"
+          "typescriptreact"
         ],
         "path": "./snippets/typescript/typescript.json"
       },
