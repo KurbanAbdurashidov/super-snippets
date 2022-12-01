@@ -1,12 +1,1 @@
-{
-  "generateImage": {
-    "prefix": "imagee",
-    "body": "<img src=\".\/${1:source}\" alt=\".\/${2:alt}\" />${0}"
-  }
-},
-{
-  "arrow function": {
-    "prefix": "afn",
-    "body": "const ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
-  }
-}
+
