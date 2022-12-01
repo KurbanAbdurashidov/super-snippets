@@ -1,9 +1,9 @@
 {
-  "flex": {
+  "display: flex": {
     "prefix": "df",
     "body": "display: flex;"
   },
-  "grid": {
+  "display: grid": {
     "prefix": "dg",
     "body": "display: grid;"
   },
