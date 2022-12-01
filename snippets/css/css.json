@@ -1,12 +1,10 @@
 {
-  "display flex": {
+  "Flex": {
     "prefix": "df",
     "body": "display: flex;"
-  }
-},
-{
-  "display grid": {
+  },
+  "Grid": {
     "prefix": "dg",
     "body": "display: grid;"
-  }
+  },
 }
