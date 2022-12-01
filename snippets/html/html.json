@@ -1,6 +1,6 @@
 {
 	"a": {
-	    "prefix": "a",
+		"prefix": "a",
 	    "body": "<a href=\"${1:source}\" ${2:className=\"\"}>$3</a>${0}"
 	},
 	"aside": {
