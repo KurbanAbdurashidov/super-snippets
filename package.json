@@ -25,26 +25,11 @@
         "language": [
           "javascript",
           "javascriptreact",
-          "vue",
-          "svelte"
-        ],
-        "path": "./snippets/javascript/javascript.json"
-      },
-      {
-        "language": [
           "typescript",
           "typescriptreact"
         ],
-        "path": "./snippets/javascript/typescript.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/javascript/react-js.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/javascript/react-ts.json"
-      },
+        "path": "./snippets/javascript/javascript.json"
+      }
     ]
   }
 }
