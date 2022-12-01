@@ -9,22 +9,4 @@
     "prefix": "afn",
     "body": "cosnt ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
   }
-},
-{
-  "functionDeclaration": {
-    "prefix": "fn",
-    "body": "function ${1:name}(${2:arguments}) {\n\t${0}\n}"
-  }
-},
-{
-  "importModule": {
-    "prefix": "imp",
-    "body": "import { ${2:module} } from \"${1:source}\";${0}"
-  }
-},
-{
-  "exportDefault": {
-    "prefix": "expd",
-    "body": "export default ${0:component};"
-  }
 }
