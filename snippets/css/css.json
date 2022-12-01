@@ -14,5 +14,85 @@
   "margin bottom": {
     "prefix": "mmb",
     "body": "margin: 0 0 $1 0;$0"
+  },
+  "justify-content": {
+    "prefix": "jc",
+    "body": "justify-content: ${1:|flex-start, flex-end, center, space-between, space-around|};${0}"
+  },
+  "justify-content: center": {
+    "prefix": "jcc",
+    "body": "justify-content: center;${0}"
+  },
+  "justify-content: flex-start": {
+    "prefix": "jcfs",
+    "body": "justify-content: flex-start;${0}"
+  },
+  "justify-content: flex-end": {
+    "prefix": "jcfe",
+    "body": "justify-content: flex-end;${0}"
+  },
+  "justify-content: space-between": {
+    "prefix": "jcsb",
+    "body": "justify-content: space-between;${0}"
+  },
+  "justify-content: space-around": {
+    "prefix": "jcsa",
+    "body": "justify-content: space-around;${0}"
+  },
+  "align-items": {
+    "prefix": "ai",
+    "body": "align-items: ${1:|flex-start,flex-end,center,baseline,stretch,auto|}${0}"
+  },
+  "align-items: flex-start": {
+    "prefix": "aifs",
+    "body": "align-items: flex-start;${0}"
+  },
+  "align-items: flex-end": {
+    "prefix": "aife",
+    "body": "align-items: flex-end;${0}"
+  },
+  "align-items: center": {
+    "prefix": "aic",
+    "body": "align-items: center;${0}"
+  },
+  "background": {
+    "prefix": "bg",
+    "body": "background: $1;${0}"
+  },
+  "background-color": {
+    "prefix": "bgc",
+    "body": "background-color: $1;${0}"
+  },
+  "border-radius": {
+    "prefix": "brr",
+    "body": "border-radius: $1;${0}"
+  },
+  "width": {
+    "prefix": "w",
+    "body": "width: $1;${0}"
+  },
+  "height": {
+    "prefix": "h",
+    "body": "height: $1;${0}"
+  },
+  "max-width": {
+    "prefix": "mw",
+    "body": "max-width: $1;${0}"
+  },
+  "min-height": {
+    "prefix": "mh",
+    "body": "min-height: $1;${0}"
+  },
+  "max-height": {
+    "prefix": "maxh",
+    "body": "max-height: $1;${0}"
+  },
+  "margin: 0 auto": {
+    "prefix": "mara",
+    "body": "margin: 0 auto;${0}"
+  },
+  "padding": {
+    "prefix": "p",
+    "body": "padding: $1 $2 $3 $3;${0}"
   }
 }
