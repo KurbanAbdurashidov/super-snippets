@@ -15,4 +15,10 @@
     "prefix": "fn",
     "body": "function ${1:name}(${2:arguments}) {\n\t${0}\n}"
   }
+},
+{
+  "importModule": {
+    "prefix": "imp",
+    "body": "import { ${1:module} } from \"${2:source}\";${0}"
+  }
 }
