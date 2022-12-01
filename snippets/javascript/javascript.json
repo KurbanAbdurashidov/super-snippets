@@ -3,28 +3,4 @@
     "prefix": "imagee",
     "body": "<img src=\".\/${1:source}\" alt=\".\/${2:alt}\" />${0}"
   }
-},
-{
-  "arrowFunction": {
-    "prefix": "afn",
-    "body": "cosnt ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
-  }
-},
-{
-  "functionDeclaration": {
-    "prefix": "fn",
-    "body": "function ${1:name}(${2:arguments}) {\n\t${0}\n}"
-  }
-},
-{
-  "importModule": {
-    "prefix": "imp",
-    "body": "import { ${1:module} } from \"${2:source}\";${0}"
-  }
-},
-{
-  "exportDefault": {
-    "prefix": "expd",
-    "body": "export default ${1:component};"
-  }
 }
