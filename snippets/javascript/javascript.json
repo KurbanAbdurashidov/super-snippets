@@ -1,6 +1,6 @@
 {
-  "genImage": {
-    "prefix": "iii",
-    "body": "<img />"
+  "tagImage": {
+    "prefix": "imagee",
+    "body": "<img src=${1:src} alt=${2:alt} />"
   }
 }
