@@ -1,6 +1,0 @@
-{
-  "genImage": {
-    "prefix": "imageee",
-    "body": "<img src="$1" alt="$2" />"
-  }
-}
