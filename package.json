@@ -11,7 +11,7 @@
           "javascript",
           "javascriptreact"
         ],
-        "path": "./snippets/html/html.json"
+        "path": "snippets/html/html.json"
       },
       {
         "language": [
@@ -19,7 +19,7 @@
           "scss",
           "sass"
         ],
-        "path": "./snippets/css/css.json"
+        "path": "snippets/css/css.json"
       },
       {
         "language": [
@@ -28,7 +28,7 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./snippets/javascript/javascript.json"
+        "path": "snippets/javascript/javascript.json"
       }
     ]
   }
