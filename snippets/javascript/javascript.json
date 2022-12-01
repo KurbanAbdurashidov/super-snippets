@@ -1,6 +1,6 @@
 {
-  "generateImage": {
-    "prefix": "imp",
+  "genImage": {
+    "prefix": "iii",
     "body": "<img />"
   }
 }
