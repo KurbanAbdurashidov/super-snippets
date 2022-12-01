@@ -1,0 +1,6 @@
+{
+  "json": {
+    "prefix": "snjson",
+    "body": "\"$1\": {\n\t\"prefix\": \"$2\",\n\"body\": \"$3\"\n}"
+  }
+}
