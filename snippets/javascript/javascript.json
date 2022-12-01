@@ -21,4 +21,10 @@
     "prefix": "imp",
     "body": "import { ${1:module} } from \"${2:source}\";${0}"
   }
+},
+{
+  "exportDefault": {
+    "prefix": "expd",
+    "body": "export default ${1:component};"
+  }
 }
