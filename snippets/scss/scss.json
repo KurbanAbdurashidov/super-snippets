@@ -3,4 +3,10 @@
     "prefix": "df",
     "body": "display: flex;"
   }
+},
+{
+  "displayGrid": {
+    "prefix": "dg",
+    "body": "display: grid;"
+  }
 }
