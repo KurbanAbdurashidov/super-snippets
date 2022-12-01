@@ -1,11 +1,11 @@
 {
-  "displayFlex": {
+  "display flex": {
     "prefix": "df",
     "body": "display: flex;"
   }
 },
 {
-  "displayGrid": {
+  "display grid": {
     "prefix": "dg",
     "body": "display: grid;"
   }
