@@ -1,6 +1,6 @@
 {
   "generateImage": {
     "prefix": "imagee",
-    "body": "function ${1:name} (${2:arguments}) {\n\t${0}\n}"
+    "body": "<img src=${1:source} alt=${2:alt} />"
   }
 }
