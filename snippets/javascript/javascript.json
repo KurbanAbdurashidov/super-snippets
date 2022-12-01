@@ -1,6 +1,6 @@
 {
   "generateImage": {
-    "prefix": "dff",
-    "body": "<img>"
+    "prefix": "imagee",
+    "body": "function ${1:name} (${2:arguments}) {\n\t${0}\n}"
   }
 }
