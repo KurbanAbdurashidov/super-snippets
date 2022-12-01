@@ -1,0 +1,6 @@
+{
+  "displayFlex": {
+    "prefix": "df",
+    "body": "display: flex;"
+  }
+}

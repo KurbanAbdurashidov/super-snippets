@@ -1,0 +1,34 @@
+{
+  "name": "JavaScript TypeScript React React-Native Redux SCSS HTML code snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "html"
+        ],
+        "path": "./snippets/javascript/javascript.json"
+      },
+      {
+        "language": [
+          "typescript",
+          "typescriptreact",
+          "html"
+        ],
+        "path": "./snippets/typescript/typescript.json"
+      },
+      {
+        "language": [
+          "css",
+          "scss",
+          "sass"
+        ],
+        "path": "./snippets/scss/scss.json"
+      }
+    ]
+  }
+}
