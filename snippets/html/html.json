@@ -1,6 +1,54 @@
 {
   "image": {
     "prefix": "imd",
-    "body": "<img src=\".\/${1:source}\" alt=\".\/${2:alt}\" />${0}"
+    "body": "<img src=\"./${1:source}\" alt=\"./${2:alt}\" />${0}"
+  },
+  "a": {
+    "prefix": "a",
+    "body": "<a href=\"${1:link}\" ${2:className=\"\"}>$3</a>${0}"
+  },
+  "div": {
+    "prefix": "div",
+    "body": "<div ${1:className=\"\"}>$2</div>${0}"
+  },
+  "ul": {
+    "prefix": "ul",
+    "body": "<ul ${1:className=\"\"}>$2</ul>${0}"
+  },
+  "li": {
+    "prefix": "li",
+    "body": "<li ${1:className=\"\"}>$2</li>${0}"
+  },
+  "h1": {
+    "prefix": "h1",
+    "body": "<h1 ${1:className=\"\"}>$2</h1>${0}"
+  },
+  "h2": {
+    "prefix": "h2",
+    "body": "<h2 ${1:className=\"\"}>$2</h2>${0}"
+  },
+  "h3": {
+    "prefix": "h3",
+    "body": "<h3 ${1:className=\"\"}>$2</h3>${0}"
+  },
+  "h4": {
+    "prefix": "h4",
+    "body": "<h4 ${1:className=\"\"}>$2</h4>${0}"
+  },
+  "h5": {
+    "prefix": "h5",
+    "body": "<h5 ${1:className=\"\"}>$2</h5>${0}"
+  },
+  "h6": {
+    "prefix": "h6",
+    "body": "<h6 ${1:className=\"\"}>$2</h6>${0}"
+  },
+  "button": {
+    "prefix": "button",
+    "body": "<button type=\"$1\" ${2:className=\"\"}>$3</button>${0}"
+  },
+  "input": {
+    "prefix": "input",
+    "body": "<input type=\"$1\" ${2:className=\"\"} />${0}"
   }
 }
