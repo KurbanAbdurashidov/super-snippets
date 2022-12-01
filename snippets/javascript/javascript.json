@@ -1,6 +1,6 @@
 {
   "generateImage": {
-    "prefix": "imagee",
-    "body": "<img src="" alt="" />"
+    "prefix": "imp",
+    "body": "<img />"
   }
 }
