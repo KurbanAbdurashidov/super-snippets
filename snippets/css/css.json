@@ -1,25 +1,25 @@
 {
-  "Flex": {
+  "flex": {
     "prefix": "df",
-    "body": "display: flex;${0}"
+    "body": "display: flex;"
   },
-  "Grid": {
+  "grid": {
     "prefix": "dg",
     "body": "display: grid;${0}"
   },
-  "Margin top": {
+  "margin top": {
     "prefix": "mmt",
     "body": "margin: $1 0 0 0;${0}"
   },
-  "Margin bottom": {
+  "margin bottom": {
     "prefix": "mmb",
     "body": "margin: 0 0 $1 0;${0}"
   }
-  "Margin right/left": {
+  "margin right/left": {
     "prefix": "mmrl",
     "body": "margin: 0 $1 0 $2;${0}"
   },
-  "Margin top/bottom": {
+  "margin top/bottom": {
     "prefix": "mmtb",
     "body": "margin: $1 0 $2 0;${0}"
   }
