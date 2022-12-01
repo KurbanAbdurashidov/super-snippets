@@ -3,10 +3,4 @@
     "prefix": "df",
     "body": "display: flex;"
   }
-},
-{
-  "generateImage": {
-    "prefix": "imagee",
-    "body": "<img src=${1:src} alt=${2:alt} />"
-  }
 }
