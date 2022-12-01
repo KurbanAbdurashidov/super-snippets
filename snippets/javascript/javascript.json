@@ -6,7 +6,7 @@
 },
 {
   "arrowFunction": {
-    "prefix": "afn",
+    "prefix": "fna",
     "body": "cosnt ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
   }
 }
