@@ -9,4 +9,4 @@
     "prefix": "afn",
     "body": "const ${1:name} = (${2:arguments}) => {\n\t${0}\n}"
   }
-},
+}
