@@ -92,7 +92,7 @@
     "body": "margin: 0 auto;${0}"
   },
   "padding": {
-    "prefix": "p",
-    "body": "padding: $1 $2 $3 $3;${0}"
+    "prefix": "pad",
+    "body": "padding: $1 $2 $3 $4;${0}"
   }
 }
