@@ -1,5 +1,5 @@
 {
-  "name": "JavaScript TypeScript React React-Native Redux SCSS code snippets",
+  "name": "super snippets",
   "engines": {
     "vscode": "^1.11.0"
   },
@@ -7,8 +7,25 @@
     "snippets": [
       {
         "language": [
-          "javascript",
+          "html",
           "javascriptreact"
+        ],
+        "path": "./snippets/html/html.json"
+      },
+      {
+        "language": [
+          "css",
+          "scss",
+          "sass"
+        ],
+        "path": "./snippets/css/css.json"
+      },
+      {
+        "language": [
+          "javascript",
+          "javascriptreact",
+          "vue",
+          "svelte"
         ],
         "path": "./snippets/javascript/javascript.json"
       },
@@ -17,16 +34,16 @@
           "typescript",
           "typescriptreact"
         ],
-        "path": "./snippets/typescript/typescript.json"
+        "path": "./snippets/javascript/typescript.json"
       },
       {
-        "language": [
-          "css",
-          "scss",
-          "sass"
-        ],
-        "path": "./snippets/scss/scss.json"
-      }
+        "language": "javascriptreact",
+        "path": "./snippets/javascript/react-js.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/javascript/react-ts.json"
+      },
     ]
   }
 }
