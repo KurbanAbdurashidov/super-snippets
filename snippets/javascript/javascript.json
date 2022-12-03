@@ -17,6 +17,6 @@
   },
   "create component": {
     "prefix": "crc",
-    "body": "import React from \"react\";\n\nconst $1 = () => {\n\treturn (\n\t\t<div>$2\n\n\t\t</div>);};\n\nexport default $3;"
+    "body": "import React from \"react\";\n\nconst $1 = () => {\n\treturn (\n\t\t<div>\n\t\t\t$2\n\t\t</div>\n\t);\n\t\t};\n\nexport default $3;"
   }
 }
