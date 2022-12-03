@@ -22,5 +22,9 @@
   "create component": {
     "prefix": "crc",
     "body": "import React from \"react\";\n\nconst $1 = () => {\n\treturn (\n\t\t<div>\n\t\t\t$2\n\t\t</div>\n\t);\n};\n\nexport default $3;"
+  },
+  "make class name": {
+    "prefix": "cls",
+    "body": "className=\"$1\""
   }
 }
