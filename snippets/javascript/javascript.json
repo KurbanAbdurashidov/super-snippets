@@ -7,9 +7,13 @@
     "prefix": "afn",
     "body": "const ${1:name} = (${2:arguments}) => {\n\t$3\n}"
   },
-  "import": {
-    "prefix": "impmod",
+  "import module": {
+    "prefix": "impm",
     "body": "import { ${2:module} } from \"${1:source}\";"
+  },
+  "import component": {
+    "prefix": "impc",
+    "body": "import ${2:component} from \"./${1:source}\";"
   },
   "import react": {
     "prefix": "impr",
