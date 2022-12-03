@@ -14,5 +14,9 @@
   "import react": {
     "prefix": "impr",
     "body": "import React from \"react\";"
+  },
+  "create component": {
+    "prefix": "crc",
+    "body": "import React from \"react\";\n\nconst $1 = () => {\n\treturn (\n\t\t<div>$2\n\n\t\t</div>);};\n\nexport default $3;"
   }
 }
