@@ -1,54 +1,62 @@
 {
   "image": {
     "prefix": "imd",
-    "body": "<img src=\"./${1:source}\" alt=\"./${2:alt}\" />${0}"
+    "body": "<img src=\"./${1:source}\" alt=\"./${2:alt}\" />"
   },
   "a": {
     "prefix": "a",
-    "body": "<a href=\"${1:link}\" ${2:className=\"\"}>$3</a>${0}"
+    "body": "<a href=\"${1:link}\" ${2:className=\"\"}>$3</a>"
+  },
+  "p": {
+    "prefix": "p",
+    "body": "<p ${1:className=\"\"}>$2</p>"
+  },
+  "span": {
+    "prefix": "span",
+    "body": "<span ${1:className=\"\"}>$2</span>"
   },
   "div": {
     "prefix": "div",
-    "body": "<div ${1:className=\"\"}>$2</div>${0}"
+    "body": "<div ${1:className=\"\"}>$2</div>"
   },
   "ul": {
     "prefix": "ul",
-    "body": "<ul ${1:className=\"\"}>$2</ul>${0}"
+    "body": "<ul ${1:className=\"\"}>$2</ul>"
   },
   "li": {
     "prefix": "li",
-    "body": "<li ${1:className=\"\"}>$2</li>${0}"
+    "body": "<li ${1:className=\"\"}>$2</li>"
   },
   "h1": {
     "prefix": "h1",
-    "body": "<h1 ${1:className=\"\"}>$2</h1>${0}"
+    "body": "<h1 ${1:className=\"\"}>$2</h1>"
   },
   "h2": {
     "prefix": "h2",
-    "body": "<h2 ${1:className=\"\"}>$2</h2>${0}"
+    "body": "<h2 ${1:className=\"\"}>$2</h2>"
   },
   "h3": {
     "prefix": "h3",
-    "body": "<h3 ${1:className=\"\"}>$2</h3>${0}"
+    "body": "<h3 ${1:className=\"\"}>$2</h3>"
   },
   "h4": {
     "prefix": "h4",
-    "body": "<h4 ${1:className=\"\"}>$2</h4>${0}"
+    "body": "<h4 ${1:className=\"\"}>$2</h4>"
   },
   "h5": {
     "prefix": "h5",
-    "body": "<h5 ${1:className=\"\"}>$2</h5>${0}"
+    "body": "<h5 ${1:className=\"\"}>$2</h5>"
   },
   "h6": {
     "prefix": "h6",
-    "body": "<h6 ${1:className=\"\"}>$2</h6>${0}"
+    "body": "<h6 ${1:className=\"\"}>$2</h6>"
   },
   "button": {
     "prefix": "button",
-    "body": "<button type=\"$1\" ${2:className=\"\"}>$3</button>${0}"
+    "body": "<button type=\"$1\" ${2:className=\"\"}>$3</button>"
   },
   "input": {
     "prefix": "input",
-    "body": "<input type=\"$1\" ${2:className=\"\"} />${0}"
+    "body": "<input type=\"$1\" ${2:className=\"\"} />"
   }
 }
