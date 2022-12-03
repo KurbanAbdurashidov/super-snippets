@@ -6,5 +6,9 @@
   "arrow function": {
     "prefix": "afn",
     "body": "const ${1:name} = (${2:arguments}) => {\n\t$3\n}"
+  },
+  "import": {
+    "prefix": "import",
+    "body": "import { $2 } from \"$1\""
   }
 }
